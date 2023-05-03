@@ -24,6 +24,7 @@ module.exports = {
     ],
 
     'import/prefer-default-export': 'off',
+    'no-param-reassign': 0,
   },
   settings: {
     'import/resolver': {
