@@ -24,6 +24,7 @@ const Search = () => {
   useEffect(() => {
     if (debouncedValue) {
       dispatch(fetchAutoCompleteWordList(debouncedValue));
+      if (debouncedValue.length > 0) dispatch(setIsCollapsed({ isCollapsed: false }));
     }
   }, [debouncedValue]);
 
