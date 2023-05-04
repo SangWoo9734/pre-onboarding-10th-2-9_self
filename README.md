@@ -2,7 +2,6 @@
 
 ### 배포사이트
 
-🚀 [바로가기](https://pre-onboarding-10th-2-9-7bcziauc2-sangwoo9734.vercel.app/)
 
 ### 요구사항
 
