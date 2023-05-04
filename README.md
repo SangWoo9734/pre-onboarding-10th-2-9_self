@@ -1,9 +1,6 @@
 # pre-onboarding-10th-2-9
 
-
-검색 기능 구현
-
-proxy 설정
+### proxy 설정
 
 <img width="526" alt="2" src="https://user-images.githubusercontent.com/49917043/236109816-e540beb7-ff47-47d7-96d0-0038f40732c2.png">
 
@@ -24,7 +21,7 @@ proxy 설정
 
 http-proxy-middleware 라이브러리를 사용하는 방식도 있었지만 우회하려는 url이 하나이고, proxy 세팅하는 코드까지 짜는 것은 현재 프로젝트에서 우선 순위가 아닌 것 같아 package.json에서 프록시를 추가하는 방식으로만 진행했습니다.
 
-debouncing
+### debouncing
 
 검색 자동 완성 기능은 사용자가 입력한 검색어에 따라 관련된 검색어를 보여준다.
 
@@ -76,7 +73,7 @@ debounce 되는지 확실하게 테스트 하기 위해 delay 값을 1초로 늘
 
 (이는 delay 값에 따라 상이할 수 있습니다.)
 
-api 캐싱 기능
+### api 캐싱 기능
 
 같은 검색어에 대해서 계속해서 반복적으로 요청을 보내지 않고, 검색어에 대한 검색결과를 캐시에 저장함으로서 이전에 검색 이력이 있는 검색어는 api 요청 대신 캐시에서 꺼내어 동일한 결과를 사용하게끔하여 불필요한 api 요청을 줄일 수 있습니다.
 
