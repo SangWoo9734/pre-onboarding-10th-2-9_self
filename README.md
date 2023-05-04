@@ -1,5 +1,16 @@
 # pre-onboarding-10th-2-9
 
+### 요구사항
+
+- [x] 검색창 구현
+- [x]  검색어 추천 기능 구현
+- [ ]  캐싱 기능 구현
+- [ ]  expire time 설정(5분)
+- [x]  API 호출 횟수 조절( debounce 적용 )
+- [x]  키보드를 이용한 추천 검색어 이동 기능
+	- [ ] 사용자 경험 개선 필요
+- [x] readme 작성
+
 ### proxy 설정
 
 <img width="526" alt="2" src="https://user-images.githubusercontent.com/49917043/236109816-e540beb7-ff47-47d7-96d0-0038f40732c2.png">
